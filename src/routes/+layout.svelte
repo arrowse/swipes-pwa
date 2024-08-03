@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import '../app.css';
 	import { Button, DarkMode } from 'flowbite-svelte';
 	import { page } from '$app/stores';
