@@ -59,9 +59,7 @@
 			location.href = '/setup';
 		} else {
 			remainingSwipes = calculateRemainingSwipes(planValue, usedValue);
-			if (remainingSwipes <= 0) {
-				remainingSwipesMessage = 'You\'re out of swipes for the moment.';
-			} else if (isWeeklyPlan(planValue)) {
+			if (isWeeklyPlan(planValue)) {
 				remainingSwipesMessage = `week.`;
 			} else {
 				remainingSwipesMessage = `quarter.`;
@@ -107,7 +105,5 @@
 		<GradientButton shadow color="teal" size="sm" on:click={() => handleClick(() => used.update(n => n - 1))}
 										disabled={buttonsDisabled}>Unswipe!
 		</GradientButton>
-		<br />
-		<br />
 	</div>
 {/if}
