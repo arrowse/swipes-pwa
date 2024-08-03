@@ -4,41 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a45f21-7ee0-45b7-b88f-8519ca403abf" name="Changes" comment="initial commit wow">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/stores/localStorageHandler.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/howto/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/pwa/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/setup/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/apple-touch-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/maskable-icon-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pwa-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pwa-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pwa-64x64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+    <list default="true" id="50a45f21-7ee0-45b7-b88f-8519ca403abf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/routes/+layout.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="+layout.server" />
         <option value="+page" />
         <option value="+layout" />
+        <option value="+layout.server" />
       </list>
     </option>
   </component>
@@ -108,14 +77,24 @@
       <option name="presentableId" value="Default" />
       <updated>1722679598165</updated>
       <workItem from="1722679599351" duration="10894000" />
-      <workItem from="1722690528884" duration="283000" />
+      <workItem from="1722690528884" duration="858000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit wow">
+      <option name="closed" value="true" />
+      <created>1722691118861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722691118861</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial commit wow" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit wow" />
