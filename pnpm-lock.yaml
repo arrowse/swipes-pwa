@@ -103,6 +103,9 @@ importers:
       vitest:
         specifier: ^0.28.5
         version: 0.28.5(sass@1.77.8)(terser@5.31.3)
+      workbox-window:
+        specifier: ^7.1.0
+        version: 7.1.0
 
 packages:
 
