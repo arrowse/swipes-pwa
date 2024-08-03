@@ -21,8 +21,6 @@ export default defineConfig({
 				scope: '/',
 				display: 'standalone',
 				description: 'Track your meal swipes with just a button.',
-				theme_color: '#b4befe',
-				background_color: '#313244',
 				icons: [
 					{
 						src: 'pwa-192x192.png',
