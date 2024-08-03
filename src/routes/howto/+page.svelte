@@ -8,6 +8,6 @@
 	<p>To get started, install this site as a progressive web app by
 		clicking share on IOS, or menu on Android. Lastly, tap add to home screen.</p>
 
-	<p>Swipe data will be stored 100% on device, and even work without
+	<p>Swipe data will be stored 100% on device, and even works without
 		an internet connection.</p>
 </div>

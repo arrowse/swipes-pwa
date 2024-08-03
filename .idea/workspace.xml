@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50a45f21-7ee0-45b7-b88f-8519ca403abf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/pwa/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pwa/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/howto/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/howto/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722679598165</updated>
       <workItem from="1722679599351" duration="10894000" />
-      <workItem from="1722690528884" duration="2766000" />
+      <workItem from="1722690528884" duration="3034000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit wow">
       <option name="closed" value="true" />
@@ -118,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722692735954</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="last change for now">
+      <option name="closed" value="true" />
+      <created>1722693303458</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722693303458</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +136,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial commit wow" />
     <MESSAGE value="fix serviceworker" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix serviceworker" />
+    <MESSAGE value="last change for now" />
+    <option name="LAST_COMMIT_MESSAGE" value="last change for now" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
