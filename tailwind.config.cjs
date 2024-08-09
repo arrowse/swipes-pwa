@@ -9,7 +9,7 @@ const config = {
 			'sans': ['Inter', 'sans-serif'],
 			'serif': ['Merriweather', 'serif'],
 			'mono': ['"Fira Code"', 'monospace']
-		}
+		},
 	},
 
 

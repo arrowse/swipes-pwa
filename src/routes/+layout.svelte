@@ -44,11 +44,11 @@
 	</Button>
 {/if}
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center justify-center min-h-screen">
+<div class="grid grid-cols-1 md:grid-cols-[1fr,2fr,1fr] gap-2 items-center justify-center min-h-screen">
 	<div class="hidden md:block col-span-1 flex-1 min-w-0">
 		<!-- Left column content -->
 	</div>
-	<div class="col-span-1 max-w-screen-md mx-auto p-8">
+	<div class="col-span-1 min-w-12 p-8">
 		<slot />
 	</div>
 	<div class="hidden md:block col-span-1 flex-1 min-w-0">

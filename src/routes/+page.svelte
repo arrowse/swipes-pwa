@@ -1,5 +1,5 @@
 <script>
-	import { GradientButton } from 'flowbite-svelte';
+	import { Button } from 'flowbite-svelte';
 </script>
 
 <h1>Swiper</h1>
@@ -8,4 +8,4 @@ Track your meal swipes easier than ever.
 With one button.
 <br />
 <br />
-<GradientButton href="/howto" shadow color="purple">Let's go</GradientButton>
+<Button href="/howto"  class="bg-[#BB9CFF] text-[#11111B]">Let's go</Button>

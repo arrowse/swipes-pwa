@@ -4,7 +4,7 @@
 	import { get } from 'svelte/store';
 	import { fly } from 'svelte/transition';
 	import { circOut } from 'svelte/easing';
-	import { GradientButton } from 'flowbite-svelte';
+	import { Button } from 'flowbite-svelte';
 
 	let show = false;
 
@@ -17,15 +17,14 @@
 		return diffDays > 7;
 	}
 
-	// Helper function to get the previous Sunday
-	function getPreviousSunday(): string {
+	// Helper function to get the previous Sunday at 12:00am CST
+	function getPreviousSundayCST(): string {
 		const now = new Date();
-		const dayOfWeek = now.getDay();
-		const diff = now.getDate() - dayOfWeek;
-		const previousSunday = new Date(now.setDate(diff));
+		const dayOfWeek = now.getUTCDay();
+		const diff = now.getUTCDate() - dayOfWeek;
+		const previousSunday = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), diff, 6)); // 6 AM UTC is midnight CST
 		return previousSunday.toISOString().split('T')[0]; // Format as YYYY-MM-DD
 	}
-
 	// Helper function to determine if the plan is weekly
 	function isWeeklyPlan(plan: string): boolean {
 		return /\d+w/.test(plan);
@@ -78,7 +77,26 @@
 		'Cheesed to meet you.',
 		'Are you cooking? Not food... but like, with goals and stuff',
 		'Not everything needs to be an app... but I was bored so.. hi',
-		'Wherever you are, I hope your day is going well!'
+		'Wherever you are, I hope your day is going well!',
+			'The one piece is real!',
+			'I still think they should nerf tenta missiles.',
+			'SODAAAAAAAAAAAA',
+			'Cats: "All your base are belong to us."',
+			'[Object object]',
+			'I will be your server today Mr. Gates',
+			'Slenderman, cooking hot dogs on the stove?!?!?',
+			'Did you know the green line is the oldest?',
+			'The city of San Fransisco flag is actually so bad...',
+			'mmmmmm bugati',
+			'Your blue eyes white dragon can\'t hear over the wall of infinite kuribohs!',
+			'Remember when cocaine bear launched? What a film.',
+			'I think we\'re going to need more C-47s over here.',
+			'brat',
+			'Miku approved!',
+			'1 billion lions vs all pokemon (they will form a lion ladder)',
+			'You\'d have to stop the world just to stop the feeling',
+			'i love gambling',
+			'starship fans when the tin can does absolutely nothing for 12 hours straight'
 	];
 
 	function handleClick(action: () => void) {
@@ -90,20 +108,22 @@
 			}, 300); // Disable buttons for 2 seconds
 		}
 	}
+
+	let message = randomMessages[Math.floor(Math.random() * randomMessages.length)]
 </script>
 
 {#if $plan && show}
-	<div in:fly={{ y: 10, easing: circOut, duration: 300, delay: 0 }}>
+	<div in:fly={{ y: 20, easing: circOut, duration: 450, delay: 0 }} class="{message === 'brat' ? 'bg-[#8ACE00] archivo-narrow' : ''}">
 		<h1>You have {remainingSwipes} swipes left this {remainingSwipesMessage}</h1>
-		<p>{randomMessages[Math.floor(Math.random() * randomMessages.length)]}</p>
+		<p>{message}</p>
 
-		<GradientButton shadow color="purple" size="lg" on:click={() => handleClick(() => used.update(n => n + 1))}
+		<Button class="bg-[#BB9CFF] text-[#11111B]" size="lg" on:click={() => handleClick(() => used.update(n => n + 1))}
 										disabled={buttonsDisabled}>Swipe!
-		</GradientButton>
+		</Button>
 		<br />
 		<br />
-		<GradientButton shadow color="teal" size="sm" on:click={() => handleClick(() => used.update(n => n - 1))}
+		<Button class="bg-[#99D1DB] text-[#11111B]" size="sm" on:click={() => handleClick(() => used.update(n => n - 1))}
 										disabled={buttonsDisabled}>Unswipe!
-		</GradientButton>
+		</Button>
 	</div>
 {/if}

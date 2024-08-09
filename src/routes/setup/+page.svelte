@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Select, Label, GradientButton } from 'flowbite-svelte';
+	import { Select, Label, Button } from 'flowbite-svelte';
 	import { plan } from '$lib/stores/localStorageHandler';
 	import { circOut } from 'svelte/easing';
 	import { fly } from 'svelte/transition';
@@ -22,11 +22,10 @@
 	$: plan.set(selected);
 
 </script>
-<div in:fly={{ y: -10, easing: circOut, duration: 350, delay: 0 }}>
-
+<div in:fly={{ y: -20, easing: circOut, duration: 400, delay: 0 }}>
 	<Label>
 		Select your meal plan!
 		<Select class="mt-2 w-full" size="lg" items={countries} bind:value={selected} />
 	</Label>
-	<GradientButton href="pwa" disabled={!selected} shadow color="teal" class="mt-8">Save and exit</GradientButton>
+	<Button href="pwa" disabled={!selected} shadow class="mt-8 bg-[#BB9CFF] text-[#11111B]">Save and exit</Button>
 </div>
