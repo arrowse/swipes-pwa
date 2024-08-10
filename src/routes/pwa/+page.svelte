@@ -18,7 +18,7 @@
 	}
 
 	// Helper function to get the previous Sunday at 12:00am CST
-	function getPreviousSundayCST(): string {
+	function getPreviousSunday(): string {
 		const now = new Date();
 		const dayOfWeek = now.getUTCDay();
 		const diff = now.getUTCDate() - dayOfWeek;
@@ -96,7 +96,8 @@
 			'1 billion lions vs all pokemon (they will form a lion ladder)',
 			'You\'d have to stop the world just to stop the feeling',
 			'i love gambling',
-			'starship fans when the tin can does absolutely nothing for 12 hours straight'
+		'starship fans when the tin can does absolutely nothing for 12 hours straight',
+		'repost if you love building wheat farms in Minecraft for two weeks then ending the playthrough'
 	];
 
 	function handleClick(action: () => void) {
