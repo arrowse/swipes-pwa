@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a45f21-7ee0-45b7-b88f-8519ca403abf" name="Changes" comment="add IDE files">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/pwa/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pwa/+page.svelte" afterDir="false" />
-    </list>
+    <list default="true" id="50a45f21-7ee0-45b7-b88f-8519ca403abf" name="Changes" comment="add IDE files + fix new ui" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +95,7 @@
       <workItem from="1722690528884" duration="3088000" />
       <workItem from="1723183834979" duration="5487000" />
       <workItem from="1723189356835" duration="13000" />
-      <workItem from="1723274643913" duration="1414000" />
+      <workItem from="1723274643913" duration="1462000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit wow">
       <option name="closed" value="true" />
@@ -173,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723189321123</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add IDE files + fix new ui">
+      <option name="closed" value="true" />
+      <created>1723277775155</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723277775155</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +191,8 @@
     <MESSAGE value="last change for now" />
     <MESSAGE value="update theme + clock" />
     <MESSAGE value="add IDE files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add IDE files" />
+    <MESSAGE value="add IDE files + fix new ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="add IDE files + fix new ui" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

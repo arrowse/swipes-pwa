@@ -97,7 +97,6 @@
 			'You\'d have to stop the world just to stop the feeling',
 			'i love gambling',
 		'starship fans when the tin can does absolutely nothing for 12 hours straight',
-		'repost if you love building wheat farms in Minecraft for two weeks then ending the playthrough'
 	];
 
 	function handleClick(action: () => void) {
